@@ -1,9 +1,10 @@
-import streamlit as st
-from pathlib import Path
-from fastai.vision.core import PILImage
-from fastai.learner import load_learner
-from PIL import Image
 
+from fastai.vision.widgets import *
+from fastai.vision.all import *
+
+from pathlib import Path
+
+import streamlit as st
 
 ## 로딩
 path = Path()
